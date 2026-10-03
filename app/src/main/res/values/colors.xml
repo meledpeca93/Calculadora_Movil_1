@@ -1,0 +1,9 @@
+<resources>
+    <color name="uth_green">#006B46</color>
+    <color name="uth_gold">#E6B54A</color>
+    <color name="surface">#F4F7F5</color>
+    <color name="ink">#173B2D</color>
+    <color name="muted">#53665C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

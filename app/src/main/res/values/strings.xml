@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Calculadora UTH</string>
+    <string name="institucion">Universidad Tecnológica de Honduras</string>
+    <string name="titulo">Calculadora</string>
+    <string name="subtitulo">Dos números. Cuatro operaciones.</string>
+    <string name="instruccion">Ingresa tus números</string>
+    <string name="primer_numero">Primer número</string>
+    <string name="segundo_numero">Segundo número</string>
+    <string name="ayuda">Puedes usar negativos y decimales con punto o coma.</string>
+    <string name="elige">Elige una operación</string>
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="multiplicacion">Multiplicación</string>
+    <string name="division">División</string>
+    <string name="boton_suma">+  Sumar</string>
+    <string name="boton_resta">−  Restar</string>
+    <string name="boton_multiplicar">×  Multiplicar</string>
+    <string name="boton_dividir">÷  Dividir</string>
+    <string name="resultado_titulo">Tu resultado</string>
+    <string name="resultado_etiqueta">RESULTADO</string>
+    <string name="volver">Volver a calcular</string>
+    <string name="expresion">%1$s %2$s %3$s =</string>
+    <string name="pie">Matemáticas básicas · UTH</string>
+    <string name="marca_descripcion">Marca UTH</string>
+</resources>

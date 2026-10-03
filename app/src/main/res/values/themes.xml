@@ -1,0 +1,21 @@
+<resources>
+    <style name="Base.Theme.Calculadora" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/uth_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/uth_gold</item>
+        <item name="android:colorAccent">@color/uth_green</item>
+        <item name="android:windowBackground">@color/surface</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Theme.Calculadora" parent="Base.Theme.Calculadora" />
+    <style name="Operacion" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+</resources>
