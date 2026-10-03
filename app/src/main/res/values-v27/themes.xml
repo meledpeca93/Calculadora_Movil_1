@@ -1,0 +1,7 @@
+<resources>
+    <!-- Los iconos oscuros de navegación están disponibles desde Android 8.1. -->
+    <style name="Theme.Calculadora" parent="Base.Theme.Calculadora">
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>
