@@ -5,17 +5,27 @@
         <item name="colorSecondary">@color/uth_gold</item>
         <item name="android:colorAccent">@color/uth_green</item>
         <item name="android:windowBackground">@color/surface</item>
-        <item name="android:fontFamily">sans</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textAppearance">@style/TextAppearance.Calculadora</item>
+        <item name="android:textViewStyle">@style/Widget.Calculadora.TextView</item>
         <item name="android:windowLightStatusBar">true</item>
-        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">@color/uth_green</item>
     </style>
     <style name="Theme.Calculadora" parent="Base.Theme.Calculadora" />
     <style name="Operacion" parent="Widget.Material3.Button">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">72dp</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:layout_margin">4dp</item>
         <item name="android:textSize">18sp</item>
         <item name="cornerRadius">16dp</item>
+    </style>
+    <!-- Evita las fuentes variables del framework que fallan en Layoutlib. -->
+    <style name="TextAppearance.Calculadora" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="Widget.Calculadora.TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.Calculadora</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
     </style>
 </resources>

@@ -3,7 +3,6 @@ package com.uth.calculadora;
 import android.os.Bundle;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
-import java.math.BigDecimal;
 
 public class ResultadoActivity extends AppCompatActivity {
     public static final String EXTRA_PRIMERO = "com.uth.calculadora.PRIMERO";
@@ -33,13 +32,9 @@ public class ResultadoActivity extends AppCompatActivity {
         }
         ((TextView) findViewById(R.id.nombre_operacion)).setText(titulo);
         ((TextView) findViewById(R.id.expresion)).setText(getString(R.string.expresion,
-                formatear(primero), simbolo, formatear(segundo)));
-        ((TextView) findViewById(R.id.resultado)).setText(formatear(resultado));
+                FormatoNumero.formatear(primero), simbolo, FormatoNumero.formatear(segundo)));
+        ((TextView) findViewById(R.id.resultado)).setText(FormatoNumero.formatear(resultado));
         findViewById(R.id.volver).setOnClickListener(v -> finish());
     }
 
-    private static String formatear(double numero) {
-        if (numero == 0) return "0";
-        return BigDecimal.valueOf(numero).stripTrailingZeros().toString();
-    }
 }

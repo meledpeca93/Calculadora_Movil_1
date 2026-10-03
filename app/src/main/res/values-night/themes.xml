@@ -6,8 +6,11 @@
         <item name="colorSecondary">@color/uth_gold</item>
         <item name="android:colorAccent">@color/uth_green</item>
         <item name="android:windowBackground">@color/surface</item>
-        <item name="android:fontFamily">sans</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textAppearance">@style/TextAppearance.Calculadora</item>
+        <item name="android:textViewStyle">@style/Widget.Calculadora.TextView</item>
         <item name="android:windowLightStatusBar">true</item>
-        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">@color/uth_green</item>
     </style>
 </resources>

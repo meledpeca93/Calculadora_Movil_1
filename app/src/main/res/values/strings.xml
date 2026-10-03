@@ -1,4 +1,5 @@
 <resources>
+    <string name="uth" translatable="false">UTH</string>
     <string name="app_name">Calculadora UTH</string>
     <string name="institucion">Universidad Tecnológica de Honduras</string>
     <string name="titulo">Calculadora</string>

@@ -28,3 +28,5 @@ La cabecera usa una marca tipográfica UTH en XML, no el archivo oficial. La des
 Fuente del logo oficial: https://www.uth.hn/wp-content/uploads/2023/02/logowebblanco.png
 
 Los cálculos usan `double`: algunas fracciones decimales pueden mostrar la aproximación propia de punto flotante.
+
+El formato decimal se usa para magnitudes desde `0.000000001` hasta valores menores que `1000000000000`. Fuera de ese rango se usa notación científica; cero siempre se muestra como `0`. El mismo formato se aplica a los operandos y al resultado.
